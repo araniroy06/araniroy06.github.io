@@ -7,18 +7,20 @@ first_name:             Arani
 middle_name:
 last_name:              Roy
 email:                  roy173@purdue.edu
-description:            > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. researcher in Electrical and Computer Engineering at Purdue University,
-  working on efficient and trustworthy generative AI — diffusion-model compression,
-  machine unlearning, and local-learning alternatives to backpropagation.
+description:            >
+  Ph.D. researcher in Electrical and Computer Engineering at Purdue University.
+  My research builds training-free, mathematically grounded frameworks for
+  multimodal generative AI — diffusion-model compression, controllable
+  generation, concept erasure, and local-learning alternatives to
+  backpropagation.
 footer_text:            >
   Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a>
   with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="external nofollow noopener">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
-keywords:               diffusion models, model compression, machine unlearning, local learning, trustworthy ML, generative AI
+keywords:               diffusion models, multimodal generative AI, concept erasure, model compression, local learning, Arani Roy, Purdue
 lang:                   en
-icon:                   👋
+icon:                   ✦
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -26,18 +28,15 @@ icon:                   👋
 rss_icon:               true
 
 # -----------------------------------------------------------------------------
-# Site behavior
+# Site behavior — the CRITICAL fix
 # -----------------------------------------------------------------------------
-
-# THIS IS THE CRITICAL FIX FOR YOUR BROKEN LINKS
-# When you're at https://araniroy06.github.io/ (a user site),
-# the baseurl MUST be empty. The default al-folio config sets it to
-# "/al-folio" because their demo lives at alshedivat.github.io/al-folio/.
+# Your site lives at https://araniroy06.github.io (user site, repo root)
+# NOT at https://araniroy06.github.io/al-folio/ — so baseurl MUST be empty.
 url:                    https://araniroy06.github.io
-baseurl:                "" # Was "/al-folio" — this was breaking every link on your site
+baseurl:                ""
 
-last_updated:           false # set to true if you want to display last updated in the footer
-impressum_path:         # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+last_updated:           false
+impressum_path:
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -45,97 +44,85 @@ impressum_path:         # set to path to include impressum link in the footer, u
 
 navbar_fixed:           true
 footer_fixed:           true
-
-# Dimensions
 max_width:              930px
-
-# TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 
-# Display links to the page with all open graph & schema.org metadata tags for debugging.
-# In a future release, social_media_card will be supported.
-serve_og_meta:          false # Include Open Graph meta tags in the HTML head
-serve_schema_org:       false # Include Schema.org in the HTML head
-og_image:               # The site-wide (default for all links) Open Graph preview image
+serve_og_meta:          false
+serve_schema_org:       false
+og_image:
 
 # -----------------------------------------------------------------------------
-# Social integration
+# Social integration — populated from your CV
 # -----------------------------------------------------------------------------
 
-github_username:        # your GitHub username — TODO add yours
-gitlab_username:        # your GitLab username
-twitter_username:       # your Twitter handle
-mastodon_username:      # your mastodon instance+username in the format instance.tld/@username
-linkedin_username:      # your LinkedIn user name — TODO add yours
-scholar_userid:         # your Google Scholar ID — TODO add yours (the string after user= in your profile URL)
-semanticscholar_id:     # your Semantic Scholar ID
-whatsapp_number:        # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id:               # your ORCID ID
-medium_username:        # your Medium username
-quora_username:         # your Quora username
-publons_id:             # your ID on Publons
-research_gate_profile:  # your profile on ResearchGate
-blogger_url:            # your blogger URL
-work_url:               # work page URL
-youtube_id:             # your youtube channel id
-instagram_id:           # your instagram id
-discord_id:             # your discord id (executable to copy to clipboard)
-zotero_username:        # your zotero username
-stackoverflow_id:       #your stackoverflow id
-twitch_id:              # your twitch id
-kaggle_id:              # your kaggle id
-lastfm_id:              # your lastfm id
-spotify_id:             # your spotify id
-pinterest_id:           # your pinterest id
-unsplash_id:            # your unsplash id
-flickr_id:              # your flickr id
+github_username:
+gitlab_username:
+twitter_username:
+mastodon_username:
+linkedin_username:      arani-roy-9058a5111
+scholar_userid:         i4i2THIAAAAJ
+semanticscholar_id:
+whatsapp_number:
+orcid_id:
+medium_username:
+quora_username:
+publons_id:
+research_gate_profile:
+blogger_url:
+work_url:
+youtube_id:
+instagram_id:
+discord_id:
+zotero_username:
+stackoverflow_id:
+twitch_id:
+kaggle_id:
+lastfm_id:
+spotify_id:
+pinterest_id:
+unsplash_id:
+flickr_id:
 
 contact_note:           >
-  Best way to reach me is via email — I check it daily.
+  Email is the most reliable way to reach me.
 
 # -----------------------------------------------------------------------------
-# Analytics and search engine verification
+# Analytics
 # -----------------------------------------------------------------------------
 
-google_analytics:       # your Google Analytics property ID — leave blank if none
-panelbear_analytics:    # your Panelbear analytics site ID
-cronitor_analytics:     # your Cronitor RUM analytics site ID
-pirsch_analytics:       # your Pirsch analytics site ID
-openpanel_analytics:    # your OpenPanel analytics site ID
+google_analytics:
+panelbear_analytics:
+cronitor_analytics:
+pirsch_analytics:
+openpanel_analytics:
+cloudflare_analytics:
+goatcounter_analytics:
+matomo_analytics_site:
+matomo_analytics_id:
 
-# you SHOULD NOT use both Cloudflare and GoatCounter at the same time.
-cloudflare_analytics:   # your Cloudflare analytics site tag
-goatcounter_analytics:  # your goatcounter analytics site name (e.g. yoursite from yoursite.goatcounter.com)
-matomo_analytics_site:  # your Matomo analytics URL (without the protocol)
-matomo_analytics_id:    # your Matomo analytics site id
-
-google_site_verification:           # out your google-site-verification ID (Google Search Console)
-bing_site_verification:             # out your bing-site-verification ID (Bing Webmaster)
-yandex_site_verification:           # out your yandex-verification ID (Yandex Webmaster)
-naver_site_verification:            # out your naver-site-verification ID (Naver Webmaster)
-baidu_site_verification:            # out your baidu site verification code (Baidu Webmaster Tools)
+google_site_verification:
+bing_site_verification:
+yandex_site_verification:
+naver_site_verification:
+baidu_site_verification:
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
 blog_name:              arani roy
-blog_description:       a personal blog
+blog_description:       notes on generative AI, compression, and local learning
 permalink:              /blog/:year/:title/
-lsi:                    false # produce an index for related posts
+lsi:                    false
 
-# Pagination
 pagination:
   enabled:              true
 
-# Comments
-disqus_shortname:                   # put your disqus shortname
-
-# External sources
-external_sources: # array of links to external sources for blog posts (e.g. medium.com/@username)
+disqus_shortname:
+external_sources:
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -157,7 +144,7 @@ collections:
     output: true
     permalink: /teachings/:path/
 
-news_limit:                         5
+news_limit:                         6
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -174,9 +161,6 @@ scholar:
   source:                           /_bibliography/
   bibliography:                     papers.bib
   bibliography_template:            bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocesses your bibtex, and then includes the latex in the html.
-  # This requires pandoc to be installed locally.
   bibtex_filters:                   [latex, smallcaps, superscript]
 
   replace_strings:                  true
@@ -188,10 +172,8 @@ scholar:
 
   query:                            "@*"
 
-# Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:           [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric, dimensions, google_scholar_stats, inspirehep_id, additional_info]
 
-# Display different badges for publications
 enable_publication_badges:
   altmetric:                        false
   dimensions:                       false
@@ -199,7 +181,6 @@ enable_publication_badges:
   inspirehep:                       false
   semantic_scholar:                 false
 
-# Disable publication categories
 enable_publication_thumbnails:      false
 enable_publication_categories:      true
 
@@ -207,7 +188,6 @@ enable_publication_categories:      true
 # Tabs and Social
 # -----------------------------------------------------------------------------
 
-# how the tabs and social info will be sorted: "alphabetical" or "custom"
 order_type:                         'custom'
 
 # -----------------------------------------------------------------------------
@@ -221,11 +201,10 @@ display_categories:                 ['sample-posts']
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-# Markdown and syntax highlight
 markdown:               kramdown
 highlighter:            rouge
-highlight_theme_light:  github       # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark:   native       # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_light:  github
+highlight_theme_dark:   native
 kramdown:
   input:                GFM
   syntax_highlighter_opts:
@@ -236,7 +215,6 @@ kramdown:
       line_numbers:     false
       start_line:       1
 
-# Includes & excludes
 include:                ['_pages']
 exclude:
   - bin
