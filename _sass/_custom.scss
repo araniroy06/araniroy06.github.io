@@ -1,0 +1,132 @@
+/* Academic homepage refinements */
+
+:root {
+  --academic-accent: #7c3aed;
+}
+
+html[data-theme="dark"] {
+  --academic-accent: #a78bfa;
+}
+
+.section-accent {
+  color: var(--academic-accent) !important;
+  font-weight: 600;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.research-pill {
+  display: inline-block;
+  color: var(--academic-accent) !important;
+  border: 1px solid var(--academic-accent);
+  border-radius: 9999px;
+  padding: 0.15rem 0.65rem;
+  margin: 0 0.35rem 0.45rem 0;
+  font-size: 0.92rem;
+  line-height: 1.8;
+  white-space: nowrap;
+}
+
+.profile {
+  .more-info {
+    font-family: inherit;
+    margin-top: 0.7rem;
+  }
+
+  img {
+    border-radius: 0.45rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .profile {
+    width: 31%;
+  }
+}
+
+.social {
+  .contact-icons-small {
+    font-size: 1.45rem;
+    line-height: 1;
+
+    a {
+      margin-right: 0.45rem;
+      text-decoration: none;
+
+      i::before {
+        color: var(--global-text-color);
+        transition: color 0.2s ease-in-out;
+      }
+
+      &:hover i::before {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+.post-header {
+  margin-bottom: 1.75rem;
+
+  .post-title {
+    letter-spacing: -0.02em;
+  }
+
+  .desc {
+    font-size: 0.98rem;
+    color: var(--global-text-color-light);
+  }
+}
+
+article > .clearfix {
+  line-height: 1.68;
+}
+
+.news {
+  table {
+    margin-bottom: 1.5rem;
+
+    th {
+      color: var(--global-text-color-light);
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    td {
+      padding-left: 0.8rem;
+    }
+  }
+}
+
+.publications {
+  ol.bibliography li {
+    margin-bottom: 1.35rem;
+  }
+
+  .title {
+    line-height: 1.35;
+  }
+
+  .links a.btn {
+    border-radius: 9999px;
+    font-size: 0.8rem;
+  }
+}
+
+hr {
+  margin-top: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+@media (max-width: 575.98px) {
+  .profile.float-right,
+  .profile.float-left {
+    float: none !important;
+    margin: 0 auto 1.5rem auto;
+    max-width: 280px;
+  }
+
+  .profile .more-info {
+    text-align: center;
+  }
+}
