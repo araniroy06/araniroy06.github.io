@@ -1,40 +1,57 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='https://engineering.purdue.edu/ECE'>Electrical &amp; Computer Engineering, Purdue University</a>. PhD researcher in the <a href='https://engineering.purdue.edu/NanoElectronics'>Nano(electronic) Research Lab</a>, advised by <a href='https://engineering.purdue.edu/NRL'>Prof. Kaushik Roy</a>.
-
+subtitle: Ph.D. Researcher in Electrical & Computer Engineering at <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
   more_info: >
-    <p>EE Building</p>
-    <p>465 Northwestern Ave</p>
-    <p>West Lafayette, IN 47907</p>
+    <div class="social"><div class="contact-icons-small"><a href="mailto:roy173@purdue.edu" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://scholar.google.com/citations?user=i4i2THIAAAAJ" title="Google Scholar" target="_blank"><i class="ai ai-google-scholar"></i></a> <a href="https://www.linkedin.com/in/arani-roy-9058a5111" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a> <a href="https://github.com/araniroy06" title="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" title="CV" target="_blank"><i class="fas fa-file-alt"></i></a></div></div>
 
 selected_papers: true
 news: true
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
+  scrollable: false
+  limit: 6
 
 latest_posts:
   enabled: false
-  scrollable: true
-  limit: 3
 ---
 
-I am a Ph.D. researcher at **Purdue University**, working at the intersection of **multimodal generative AI**, **diffusion models**, and **efficient computing**. My research builds *training-free, mathematically grounded* frameworks that make large generative models smaller, safer, and more controllable — without finetuning, extra data, or architectural surgery.
+I am a Ph.D. researcher in **Electrical and Computer Engineering at Purdue University**, advised by [Prof. Kaushik Roy](https://engineering.purdue.edu/NRL/people/kaushik-roy){:target="_blank"}. My research focuses on building **controllable, trustworthy, and efficient generative AI systems**, with an emphasis on methods that are mathematically grounded and require little or no retraining.
 
-Recent work spans four threads:
+My current work spans four closely connected directions:
 
-- **Controllable diffusion generation** — geometry-aware traversal of text-embedding manifolds for fine-grained subject and attribute control across UNet and DiT backbones ([HEART](#)).
-- **Diffusion model compression** — closed-form, activation-guided rank reduction with theoretical pruning-error bounds, achieving ~35% inference acceleration and ~100M parameter reduction on Stable Diffusion ([SlimDiff](https://arxiv.org/abs/2509.21498)).
-- **Concept erasure & machine unlearning** — closed-form orthogonal-projection edits on cross-attention for safe text-to-image and text-to-video generation, with verified resistance to adversarial red-teaming ([CURE](https://arxiv.org/abs/2505.12677), [ICE](https://arxiv.org/abs/2511.18684)).
-- **Local learning beyond backprop** — structured low-rank feedback alignment on the Stiefel manifold, scaling Direct Feedback Alignment to 32-layer ResNets on ImageNet (*SSA*, WACV 2026 **Oral** & **Best Student Paper – Algorithms**).
+- **Controllable generative models** — understanding and navigating the geometry of text-conditioning spaces for precise subject and attribute control in diffusion models.
+- **Machine unlearning and model editing** — training-free concept removal in text-to-image and text-to-video models using structured, closed-form representation and weight-space edits.
+- **Generative model efficiency** — post-training compression and acceleration of diffusion models using activation-aware low-rank structure.
+- **Efficient learning beyond backpropagation** — scalable local-learning methods based on low-rank manifolds, feedback alignment, and hardware-aware training.
 
-Before Purdue I spent three years at **Samsung Semiconductor R&D** designing standard-cell libraries from 130 nm down to 4 nm (3 US patents, Samsung President's Award), and I've interned at **Texas Instruments' Kilby Labs** on compute-in-flash architectures for DNN workloads. The hardware lineage still shows up in my research — I care about whether the math actually runs fast on real silicon.
+A recurring theme across these projects is to understand **where knowledge lives, how it is geometrically organized, and how it can be edited without disrupting unrelated capabilities**.
 
-I review for **NeurIPS, ICLR, ICML, CVPR, ICCV, ECCV, WACV**. I'm currently on the **Bilsland Dissertation Fellowship** at Purdue.
+---
+
+<h4 class="section-accent">Past Experience</h4>
+
+Before Purdue, I worked at **Samsung Semiconductor R&D** on standard-cell library design across advanced technology nodes, where I contributed to multiple patented circuit designs. I also worked at **Texas Instruments Kilby Labs** on compute-in-flash architectures for deep-learning workloads. These experiences continue to shape my interest in algorithms that are not only theoretically principled, but also efficient in practice.
+
+I also serve as a reviewer for major machine-learning and computer-vision venues including **NeurIPS, ICLR, ICML, CVPR, ICCV, ECCV, and WACV**.
+
+---
+
+<h4 class="section-accent">Research Interests</h4>
+
+<span class="research-pill">Diffusion Models</span>
+<span class="research-pill">Generative AI</span>
+<span class="research-pill">Model Editing</span>
+<span class="research-pill">Machine Unlearning</span>
+<span class="research-pill">Representation Geometry</span>
+<span class="research-pill">Model Compression</span>
+<span class="research-pill">Efficient Foundation Models</span>
+<span class="research-pill">Local Learning</span>
+<span class="research-pill">Hardware-Aware ML</span>
