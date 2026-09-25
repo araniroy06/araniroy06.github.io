@@ -43,7 +43,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-wacv-2026-paper-feedback-alignment-meets-low-rank-manifolds-a-structured-recipe-for-local-learning-was-presented-as-an-oral-and-received-the-best-student-paper-award-algorithms",
           title: 'Our WACV 2026 paper Feedback Alignment Meets Low-Rank Manifolds: A Structured Recipe for...',
           description: "",
-          section: "News",},{id: "news-our-work-heart-hyperspherical-embedding-alignment-via-kent-representation-traversal-in-diffusion-models-is-accepted-to-neurips-2026",
+          section: "News",},{id: "news-our-work-heart-hyperspherical-embedding-alignment-via-kent-representation-traversal-in-diffusion-models-is-now-available-on-arxiv",
           title: 'Our work HEART: Hyperspherical Embedding Alignment via Kent-Representation Traversal in Diffusion Models is...',
           description: "",
           section: "News",},{id: "projects-project-1",
