@@ -27,13 +27,12 @@ I am a Ph.D. researcher in **Electrical and Computer Engineering at Purdue Unive
 
 My research spans **generative AI across multimodal and language models**, including diffusion models, diffusion language models, and large language models. I work on **representation geometry, model unlearning, efficient reasoning, and efficient deep learning**, with a focus on developing **training-free and geometry-aware methods** for controlling, analyzing, compressing, and selectively modifying foundation models.
 
-My current work is organized around five connected directions:
+My current work spans four closely connected directions:
 
-- **Geometry-aware control and model editing** — understanding the intrinsic geometry of model representations and using it for precise, training-free control in diffusion and foundation models.
-- **Concept and feature unlearning** — selectively removing semantic concepts, attributes, and task-specific knowledge while preserving neighboring and unrelated capabilities.
-- **Efficient generative models and reasoning** — compressing diffusion models, improving reconstruction and parallel reasoning in diffusion language models, and reducing inference cost.
-- **Representation analysis in LLMs** — studying how semantic features and knowledge emerge, disentangle, and propagate across transformer layers to enable localized and sequential unlearning.
-- **Model- and task-aware data curation** — selecting multimodal data with respect to model and task needs, including modality-gap-aware selection for vision-language learning.
+1. **Controllable and geometry-aware generative models** — understanding representation geometry for precise, training-free control across diffusion and foundation models.
+2. **Machine unlearning and model editing** — selectively modifying concepts, features, and knowledge in diffusion models and language models while preserving unrelated capabilities.
+3. **Efficient generative AI and reasoning** — compression and acceleration of diffusion models, efficient reasoning in diffusion language models, and model-aware data selection.
+4. **Efficient learning beyond backpropagation** — scalable local-learning and hardware-aware methods for reducing training and inference cost.
 
 A recurring theme across these projects is to understand **where knowledge lives, how it is geometrically organized, and how it can be changed efficiently without disrupting unrelated capabilities**.
 
