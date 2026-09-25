@@ -44,7 +44,7 @@ A recurring theme across these projects is to understand **where knowledge lives
 
 ---
 
-### Past Experience
+<h4 class="section-accent">Past Experience</h4>
 
 Before Purdue, I worked at **Samsung Semiconductor R&D** on standard-cell library design across advanced technology nodes, where I contributed to multiple patented circuit designs. I also worked at **Texas Instruments Kilby Labs** on compute-in-flash architectures for deep-learning workloads. These experiences continue to shape my interest in algorithms that are not only theoretically principled, but also efficient in practice.
 
@@ -52,14 +52,14 @@ I also serve as a reviewer for major machine-learning and computer-vision venues
 
 ---
 
-### Research Interests
+<h4 class="section-accent">Research Interests</h4>
 
-<span class="badge rounded-pill border me-1 mb-2">Diffusion Models</span>
-<span class="badge rounded-pill border me-1 mb-2">Generative AI</span>
-<span class="badge rounded-pill border me-1 mb-2">Model Editing</span>
-<span class="badge rounded-pill border me-1 mb-2">Machine Unlearning</span>
-<span class="badge rounded-pill border me-1 mb-2">Representation Geometry</span>
-<span class="badge rounded-pill border me-1 mb-2">Model Compression</span>
-<span class="badge rounded-pill border me-1 mb-2">Efficient Foundation Models</span>
-<span class="badge rounded-pill border me-1 mb-2">Local Learning</span>
-<span class="badge rounded-pill border me-1 mb-2">Hardware-Aware ML</span>
+<span class="research-pill">Diffusion Models</span>
+<span class="research-pill">Generative AI</span>
+<span class="research-pill">Model Editing</span>
+<span class="research-pill">Machine Unlearning</span>
+<span class="research-pill">Representation Geometry</span>
+<span class="research-pill">Model Compression</span>
+<span class="research-pill">Efficient Foundation Models</span>
+<span class="research-pill">Local Learning</span>
+<span class="research-pill">Hardware-Aware ML</span>
