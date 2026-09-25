@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2026-04-01 12:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Awarded the **Bilsland Dissertation Fellowship** from Purdue University for Fall 2026.
