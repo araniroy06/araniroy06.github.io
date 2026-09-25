@@ -10,7 +10,10 @@ html[data-theme="dark"] {
 
 .section-accent {
   color: var(--academic-accent) !important;
-  font-weight: 600;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
   margin-top: 1.8rem;
   margin-bottom: 1rem;
 }
