@@ -8,15 +8,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <div class="social">
-      <div class="contact-icons-small">
-        <a href="mailto:roy173@purdue.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
-        <a href="https://scholar.google.com/citations?user=i4i2THIAAAAJ" title="Google Scholar" target="_blank"><i class="ai ai-google-scholar"></i></a>
-        <a href="https://www.linkedin.com/in/arani-roy-9058a5111" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/araniroy06" title="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" title="CV" target="_blank"><i class="fas fa-file-alt"></i></a>
-      </div>
-    </div>
+    <div class="social"><div class="contact-icons-small"><a href="mailto:roy173@purdue.edu" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://scholar.google.com/citations?user=i4i2THIAAAAJ" title="Google Scholar" target="_blank"><i class="ai ai-google-scholar"></i></a> <a href="https://www.linkedin.com/in/arani-roy-9058a5111" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a> <a href="https://github.com/araniroy06" title="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="{{ '/assets/pdf/CV.pdf' | relative_url }}" title="CV" target="_blank"><i class="fas fa-file-alt"></i></a></div></div>
 
 selected_papers: true
 news: true
