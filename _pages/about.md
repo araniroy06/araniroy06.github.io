@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Researcher in Electrical & Computer Engineering at <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>
+subtitle: Graduate Research Assistant/Fellow at <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>
 profile:
   align: right
   image: prof_pic.jpg
@@ -38,15 +38,11 @@ A recurring theme across these projects is to understand **where knowledge lives
 
 ---
 
-<h4 class="section-accent">Past Experience</h4>
+<h4 class="section-accent">Past Experiences</h4>
 
-Before Purdue, I was an **Associate Staff Engineer at Samsung Semiconductor India R&D**, where I worked on standard-cell library design across **4 nm–130 nm** technology nodes, automated design flows for roughly **2× faster turnaround**, and contributed to **three patents** and the **Samsung President's Award**. I also worked as a **Compute-in-Flash Research Intern at Texas Instruments**, prototyping a digital compute-in-flash architecture for neural-network matrix-vector workloads and analyzing energy-throughput trade-offs.
+Before Purdue, I was in an entirely different world of **hardware**. I worked as an **Associate Staff Engineer at Samsung Semiconductor India R&D**, where I worked on library design across **4 nm–130 nm** technology nodes and automated workflows for faster turnaround in IP delivery. The experience brought **three patents**, the **Samsung President's Award**, and, just as importantly, a lot of soft skills—from teamwork and training newcomers to building lasting friendships.
 
----
-
-<h4 class="section-accent">Honors & Service</h4>
-
-My recent honors include the **WACV 2026 Best Student Paper – Algorithms Award** with an **Oral Presentation**, a **NeurIPS 2025 Spotlight**, and the **Bilsland Dissertation Fellowship** at Purdue. I serve as a reviewer for **NeurIPS, ICML, ECCV, CVPR, ICLR, WACV, and ICCV**.
+I also interned at **Texas Instruments Kilby Labs**, where I analyzed the matrix-vector workloads of neural networks for **compute-in-flash architectures** and worked on building the corresponding architecture and circuits. That experience taught me how important **energy efficiency** is, and it later motivated the efficiency focus in much of my research.
 
 ---
 
@@ -62,3 +58,14 @@ My recent honors include the **WACV 2026 Best Student Paper – Algorithms Award
 <span class="research-pill">Efficient Reasoning</span>
 <span class="research-pill">Data Curation</span>
 <span class="research-pill">Efficient Deep Learning</span>
+<span class="research-pill">Backpropagation-Free Learning</span>
+<span class="research-pill">Trustworthy ML</span>
+
+---
+
+<h4 class="section-accent">Honors during PhD</h4>
+
+- **Bilsland Dissertation Fellow**, Fall 2026
+- **Andrews Fellowship**, Fall 2022–Summer 2026
+- **WACV Best Student Paper Award — Algorithms**
+- **NeurIPS 2025 Spotlight**
