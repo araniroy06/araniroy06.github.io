@@ -1,6 +1,6 @@
 # =============================================================================
 # CV data, rendered by al-folio's /cv/ page.
-# Each top-level entry becomes a section. Order matters.
+# Updated from Resume_Roy_Arani_September_2026.pdf
 # =============================================================================
 
 - title: General Information
@@ -14,107 +14,133 @@
       value: Prof. Kaushik Roy
     - name: Email
       value: roy173@purdue.edu
-    - name: Languages
-      value: English, Bengali, Hindi
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D., Electrical and Computer Engineering
       institution: Purdue University, West Lafayette, IN
-      year: 2021 — present
+      year: Aug 2021 — Dec 2026 (Expected)
       description:
-        - "GPA: 3.8/4.0. Advisor: Prof. Kaushik Roy."
-        - "Coursework: Deep Learning, Artificial Intelligence, Optimization in Deep Learning, Linear Algebra, Data Mining, AI Hardware, Advanced VLSI."
+        - "GPA: 3.8/4.0"
+        - "Advisor: Prof. Kaushik Roy"
     - title: B.E., Electronics and Telecommunication Engineering
       institution: Jadavpur University, Kolkata, India
       year: 2014 — 2018
       description:
-        - "GPA: 9.35/10.0. Sanghamitra Gold Medal."
+        - "GPA: 9.35/10.0"
 
-- title: Research Interests
+- title: Research Summary
+  type: list
+  contents:
+    - Generative AI across multimodal and language models, including diffusion models, diffusion language models, and large language models.
+    - Representation geometry, model unlearning, efficient reasoning, and efficient deep learning.
+    - Training-free and geometry-aware methods for controlling, analyzing, compressing, and selectively modifying foundation models.
+    - Faster reasoning, backpropagation-free learning, and compression-aware training for efficient AI systems.
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: HEART — Geometry-Aware Controllable Diffusion Generation
+      institution: C-BRIC / NRL Lab, Purdue University
+      year: 2026
+      description:
+        - Developed a training-free, geometry-aware framework for controllable diffusion generation by modeling text embeddings on their intrinsic hyperspherical geometry and replacing Euclidean semantic edits with Kent-representation traversal.
+        - Enabled precise subject and attribute edits across UNet and DiT models with strong scene preservation.
+        - Achieved the best BG-/FG-LPIPS trade-off and lowest application overhead among compared methods. Published at NeurIPS 2026.
+    - title: CURE — Training-Free Concept Unlearning in Diffusion Models
+      institution: C-BRIC / NRL Lab, Purdue University
+      year: 2024 — 2025
+      description:
+        - Developed a fast, training-free concept-unlearning framework using closed-form cross-attention weight editing with orthogonal projection and spectral representation geometry.
+        - Improved concept erasure by up to 16% while preserving image quality and adversarial robustness. Published at NeurIPS 2025 (Spotlight).
+    - title: SlimDiff — Training-Free Diffusion Model Compression
+      institution: C-BRIC / NRL Lab, Purdue University
+      year: 2024 — 2025
+      description:
+        - Developed an activation-guided, timestep-aware diffusion compression framework using operator-aware low-rank decomposition.
+        - Achieved 35% faster inference and approximately 100M parameter reduction while preserving generation quality.
+        - Designed SlimSet, a 500-sample calibration set, and spectral influence criteria for activation-weight and timestep-aware profiling, reducing calibration cost by 98%.
+    - title: Backpropagation-Free Learning via Structured Low-Rank Geometry
+      institution: C-BRIC / NRL Lab, Purdue University
+      year: 2023 — 2025
+      description:
+        - Developed a backpropagation-free local-learning framework combining Direct Feedback Alignment with low-rank manifold constraints.
+        - Used orthogonality-preserving updates to improve representation alignment and achieve performance competitive with backpropagation while maintaining low inference overhead.
+        - Scaled to 32-layer ResNets and ImageNet-scale settings. Published at CVPRW 2025 and WACV 2026 (Oral), receiving the Best Student Paper – Algorithms Award.
+    - title: Hardware-Algorithm Co-design for Efficient Neural Networks
+      institution: C-BRIC / NRL Lab, Purdue University
+      year: 2022 — 2023
+      description:
+        - Developed a non-uniform, approximate-multiplier-aware quantization framework co-optimized with the target accelerator architecture.
+        - Demonstrated approximately 3.5× energy savings and 1.3× speedup while maintaining model accuracy. Published at ISCAS 2025.
+
+- title: Ongoing Projects
   type: nested_list
   contents:
-    - title: Multimodal Generative AI
+    - title: ARC — Aligned Riemannian Concept Erasure in Diffusion Models
       items:
-        - Controllable diffusion generation; geometry-aware embedding traversal
-    - title: Diffusion Models
+        - Geometry-aware concept and feature unlearning on hyperspherical representations using geodesic projection operators for localized, training-free removal while preserving neighboring semantics.
+    - title: Feature and Concept Unlearning in Large Language Models
       items:
-        - Training-free structural compression
-        - Concept erasure and safety; machine unlearning
-    - title: Efficient & Trustworthy ML
+        - Analyzing and disentangling LLM representation spaces across transformer layers for concept-level and sequential-task unlearning while preserving unrelated model capabilities.
+    - title: Semantic Reconstruction and Parallel Reasoning in Diffusion Language Models
       items:
-        - Local learning beyond backpropagation
-        - Hardware-algorithm co-design
+        - Developing a position-relaxed reconstruction objective for masked diffusion language models to improve deep-mask semantic reconstruction and parallel decoding.
+    - title: Model- and Task-Aware Data Curation for Multimodal Learning
+      items:
+        - Developing data curation methods that select samples with respect to the modality gap to improve cross-modal alignment and data efficiency.
 
-- title: Experience
+- title: Industry Experience
   type: time_table
   contents:
-    - title: Graduate Research Assistant
-      institution: Purdue · Center for Brain-Inspired Computing
-      year: 2021 — present
-      description:
-        - Research on diffusion-model compression, concept erasure, controllable generation, and local learning. Highlights — see Publications.
-    - title: Compute-in-Flash Intern (Kilby Labs)
+    - title: Compute-in-Flash Research Intern
       institution: Texas Instruments, Dallas, TX
-      year: Summer 2023
+      year: May 2023 — Aug 2023
       description:
-        - Prototyped a digital compute-in-flash architecture for DNN-style matrix–vector workloads on 28 nm flash; ported a 65 nm design and analyzed throughput–energy trade-offs.
+        - Prototyped a digital compute-in-flash architecture for neural-network matrix-vector workloads and ported a 65 nm design to 28 nm flash, analyzing energy-throughput trade-offs.
     - title: Associate Staff Engineer
-      institution: Samsung Semiconductor R&D, Bengaluru, India
-      year: 2018 — 2021
+      institution: Samsung Semiconductor India R&D, Bengaluru, India
+      year: Jul 2018 — Jul 2021
       description:
-        - End-to-end standard-cell library design across 4 nm to 130 nm nodes. Automated workflows yielded ~2× faster turnaround. 3 patents for performance-, power-, and area-optimized flip-flop designs.
+        - Led library-design projects across 4 nm–130 nm nodes and automated design flows for approximately 2× faster turnaround.
+        - Designed PPA-optimized sequential circuits resulting in three patents and the Samsung President's Award.
     - title: Student Trainee
       institution: Samsung Electronics, Bengaluru, India
-      year: Summer 2017
+      year: May 2017 — Jul 2017
       description:
-        - Built a synthesizable SRAM/memory compiler with RTL-to-GDS flow.
+        - Developed a synthesizable memory compiler with an RTL-to-GDS flow resulting in the Best Intern Project award.
 
 - title: Honors & Awards
-  type: time_table
+  type: list
   contents:
-    - year: 2026
-      items:
-        - WACV 2026 **Oral**, **Best Student Paper Award — Algorithms**
-        - Bilsland Dissertation Fellowship, Purdue University (Fall 2026)
-    - year: 2025
-      items:
-        - NeurIPS 2025 **Spotlight**
-    - year: 2021
-      items:
-        - Frederick N. Andrews Fellowship, Purdue University (4 years)
-    - year: 2020
-      items:
-        - Samsung President's Award (innovation in 4nm/5nm node)
-        - Best Paper, User Design Track, 33rd Intl. Conf. on VLSI Design & Embedded Systems
-    - year: 2018
-      items:
-        - Sanghamitra Gold Medal, Jadavpur University
-    - year: 2017
-      items:
-        - Samsung Best Intern Project (Hardware)
+    - Best Student Paper – Algorithms, WACV 2026; Oral Presentation, WACV 2026
+    - Spotlight Paper, NeurIPS 2025
+    - Bilsland Dissertation Fellowship, Purdue University, 2026
+    - Frederick N. Andrews Fellowship, Purdue University
+    - Samsung President's Award, innovation in 4 nm / 5 nm circuit design
+    - Samsung Best Intern Project Award
+    - Best Paper – User Design Track, 33rd International Conference on VLSI Design & Embedded Systems
+    - Sanghamitra Gold Medal, Jadavpur University
 
 - title: Patents
   type: list
   contents:
-    - TSPC edge-triggered precharge-based flip-flop (Samsung).
-    - Performance-optimized flip-flop with negative setup time (Samsung).
-    - True single-phase clock NAND-based reset flip-flop (Samsung).
+    - Three Samsung patents on performance- and power-optimized flip-flop architectures for advanced standard-cell libraries.
 
-- title: Skills
+- title: Technical Skills
   type: map
   contents:
-    - name: Research Areas
-      value: Diffusion Models, Multimodal Generative AI, Concept Erasure, Model Compression
-    - name: Frameworks
-      value: PyTorch, Hugging Face Diffusers, CUDA
+    - name: Research
+      value: Diffusion Models, Large Language Models, Multimodal Foundation Models, Model Editing and Unlearning, Representation Geometry, Model Compression, Efficient Deep Learning
+    - name: ML / AI
+      value: PyTorch, Hugging Face Transformers, Diffusers, CUDA, NumPy, Scikit-learn
     - name: Programming
-      value: Python, Bash, C++, Java
-    - name: Hardware / Systems
+      value: Python (proficient), C++, Bash, Java
+    - name: Hardware / EDA
       value: Verilog, HSPICE, Cadence Virtuoso, Synopsys ICC2, FineSIM
 
-- title: Service
+- title: Academic Service
   type: list
   contents:
-    - "Reviewer: ECCV 2026, ICML 2026, CVPR 2026, ICLR 2025/2026, ICCV 2025, WACV 2026"
+    - "Reviewer Service: NeurIPS 2026, ICML 2026, ECCV 2026, CVPR 2026, ICLR 2026, NeurIPS 2025, ICLR 2025, WACV 2026, ICCV 2025."
