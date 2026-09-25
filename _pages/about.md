@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a Ph.D. researcher in **Electrical and Computer Engineering at Purdue University**, advised by [Prof. Kaushik Roy](https://engineering.purdue.edu/NRL/people/kaushik-roy){:target="_blank"}. I expect to complete my Ph.D. in **December 2026**.
+I am a Ph.D. researcher in **Electrical and Computer Engineering at Purdue University**, advised by [Prof. Kaushik Roy](https://engineering.purdue.edu/NRL/people/kaushik-roy){:target="_blank"}.
 
 My research spans **generative AI across multimodal and language models**, including diffusion models, diffusion language models, and large language models. I work on **representation geometry, model unlearning, efficient reasoning, and efficient deep learning**, with a focus on developing **training-free and geometry-aware methods** for controlling, analyzing, compressing, and selectively modifying foundation models.
 
