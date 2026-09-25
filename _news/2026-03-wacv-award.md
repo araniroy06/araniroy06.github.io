@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our WACV 2026 paper **Feedback Alignment Meets Low-Rank Manifolds: A Structured Recipe for Local Learning** was presented as an **Oral** and received the **Best Student Paper Award — Algorithms**.
+Absolutely thrilled to share that our paper [**Feedback Alignment Meets Low-Rank Manifolds: A Structured Recipe for Local Learning**](https://openaccess.thecvf.com/content/WACV2026/html/Roy_Feedback_Alignment_Meets_Low-Rank_Manifolds_A_Structured_Recipe_for_Local_WACV_2026_paper.html) was presented as an **Oral at [WACV 2026](https://wacv.thecvf.com/Conferences/2026)** and received the **Best Student Paper Award — Algorithms**! 🎉
