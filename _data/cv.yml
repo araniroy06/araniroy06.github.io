@@ -1,6 +1,6 @@
 # =============================================================================
-# CV data, rendered by al-folio's /cv/ page.
-# Updated from Resume_Roy_Arani_September_2026.pdf
+# Detailed CV rendered by al-folio's /cv/ page.
+# Source: Resume_Roy_Arani_September_2026.pdf
 # =============================================================================
 
 - title: General Information
@@ -10,6 +10,8 @@
       value: Arani Roy
     - name: Affiliation
       value: Purdue University · School of Electrical and Computer Engineering
+    - name: Position
+      value: Graduate Research Assistant / Fellow
     - name: Advisor
       value: Prof. Kaushik Roy
     - name: Email
@@ -18,14 +20,16 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D., Electrical and Computer Engineering
-      institution: Purdue University, West Lafayette, IN
+    - title: Ph.D. in Electrical and Computer Engineering
+      institution: Purdue University
+      location: West Lafayette, IN
       year: Aug 2021 — Dec 2026 (Expected)
       description:
         - "GPA: 3.8/4.0"
         - "Advisor: Prof. Kaushik Roy"
-    - title: B.E., Electronics and Telecommunication Engineering
-      institution: Jadavpur University, Kolkata, India
+    - title: B.E. in Electronics and Telecommunication Engineering
+      institution: Jadavpur University
+      location: Kolkata, India
       year: 2014 — 2018
       description:
         - "GPA: 9.35/10.0"
@@ -33,40 +37,95 @@
 - title: Research Summary
   type: list
   contents:
-    - Generative AI across multimodal and language models, including diffusion models, diffusion language models, and large language models.
-    - Representation geometry, model unlearning, efficient reasoning, and efficient deep learning.
-    - Training-free and geometry-aware methods for controlling, analyzing, compressing, and selectively modifying foundation models.
-    - Faster reasoning, backpropagation-free learning, and compression-aware training for efficient AI systems.
+    - Ph.D. researcher working on generative AI across multimodal and language models, including diffusion models, diffusion language models, and LLMs; representation geometry; model unlearning; efficient reasoning; and efficient deep learning.
+    - Research focuses on developing training-free and geometry-aware methods for controlling, analyzing, compressing, and selectively modifying foundation models, along with faster reasoning, backpropagation-free learning, and compression-aware training for efficient AI systems.
+
+- title: Selected Publications
+  type: time_table
+  contents:
+    - title: "HEART: Hyperspherical Embedding Alignment via Kent-Representation Traversal in Diffusion Models"
+      institution: "A. Roy, S.D. Biswas, K. Roy · NeurIPS 2026"
+      year: "2026"
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2605.07973
+    - title: "CURE: Concept Unlearning via Orthogonal Representation Editing in Diffusion Models"
+      institution: "A. Roy*, S.D. Biswas*, K. Roy · NeurIPS 2025 · Spotlight"
+      year: "2025"
+      linkitems:
+        - linkname: Paper
+          link: https://proceedings.neurips.cc/paper_files/paper/2025/hash/769736dfbf6a1f64b4d2ab5c82c3d5e2-Abstract-Conference.html
+    - title: "Feedback Alignment Meets Low-Rank Manifolds: A Structured Recipe for Local Learning"
+      institution: "A. Roy, M.P.E. Apolinario, S.D. Biswas, K. Roy · WACV 2026 · Oral · Best Student Paper – Algorithms · CVPRW 2025"
+      year: "2026"
+      linkitems:
+        - linkname: Paper
+          link: https://openaccess.thecvf.com/content/WACV2026/html/Roy_Feedback_Alignment_Meets_Low-Rank_Manifolds_A_Structured_Recipe_for_Local_WACV_2026_paper.html
+    - title: "SlimDiff: Training-Free, Activation-Guided Slimming of Diffusion Models"
+      institution: "A. Roy*, S.D. Biswas*, K. Roy · Under Review"
+      year: "2025"
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2509.21498
+    - title: "Now You See It, Now You Don't – Instant Concept Erasure for Safe Text-to-Image and Video Generation"
+      institution: "S.D. Biswas, A. Roy, K. Roy · CVPR Findings 2026"
+      year: "2026"
+      linkitems:
+        - linkname: Paper
+          link: https://openaccess.thecvf.com/content/CVPR2026F/html/Biswas_Now_You_See_It_Now_You_Dont_Instant_Concept_Erasure_CVPRF_2026_paper.html
+    - title: "LLS: Local Learning Rule for Deep Neural Networks Inspired by Neural Activity Synchronization"
+      institution: "M.P.E. Apolinario, A. Roy, K. Roy · WACV 2025"
+      year: "2025"
+      linkitems:
+        - linkname: Paper
+          link: https://openaccess.thecvf.com/content/WACV2025/html/Apolinario_LLS_Local_Learning_Rule_for_Deep_Neural_Networks_Inspired_by_WACV_2025_paper.html
+    - title: "Towards Scalable Modeling of Compressed Videos for Efficient Action Recognition"
+      institution: "S.D. Biswas, E. Soufleri, A. Roy, K. Roy · WACV 2026"
+      year: "2026"
+      linkitems:
+        - linkname: Paper
+          link: https://arxiv.org/abs/2503.13724
+    - title: "AlphaBlend: Hardware-Algorithm Co-design with Mixed-Alphabet Set Multipliers for DNN Workloads"
+      institution: "A. Roy, K. Roy · ISCAS 2025"
+      year: "2025"
+      linkitems:
+        - linkname: Paper
+          link: https://doi.org/10.1109/ISCAS56072.2025.11043242
+    - title: "* Equal contribution."
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: HEART — Geometry-Aware Controllable Diffusion Generation
+    - title: Graduate Research Assistant / Fellow
       institution: C-BRIC / NRL Lab, Purdue University
-      year: 2026
+      location: West Lafayette, IN
+      year: Aug 2021 — Present
+    - title: "HEART: Geometry-Aware Controllable Diffusion Generation"
+      institution: C-BRIC / NRL Lab, Purdue University
+      year: "2026"
       description:
-        - Developed a training-free, geometry-aware framework for controllable diffusion generation by modeling text embeddings on their intrinsic hyperspherical geometry and replacing Euclidean semantic edits with Kent-representation traversal.
+        - Developed a training-free, geometry-aware framework for controllable diffusion generation by modeling text embeddings on their intrinsic hyperspherical geometry and replacing conventional Euclidean semantic edits with Kent-representation traversal.
         - Enabled precise subject and attribute edits across UNet and DiT models with strong scene preservation.
         - Achieved the best BG-/FG-LPIPS trade-off and lowest application overhead among compared methods. Published at NeurIPS 2026.
-    - title: CURE — Training-Free Concept Unlearning in Diffusion Models
+    - title: "CURE: Training-Free Concept Unlearning in Diffusion Models"
       institution: C-BRIC / NRL Lab, Purdue University
       year: 2024 — 2025
       description:
-        - Developed a fast, training-free concept-unlearning framework using closed-form cross-attention weight editing with orthogonal projection and spectral representation geometry.
-        - Improved concept erasure by up to 16% while preserving image quality and adversarial robustness. Published at NeurIPS 2025 (Spotlight).
-    - title: SlimDiff — Training-Free Diffusion Model Compression
+        - Developed a fast, training-free concept-unlearning framework that performs closed-form cross-attention weight editing using orthogonal projection and spectral representation geometry.
+        - Performed closed-form text-attention editing for concept removal, improving erasure by up to 16% while preserving image quality and adversarial robustness. Published at NeurIPS 2025 (Spotlight).
+    - title: "SlimDiff: Training-Free Diffusion Model Compression"
       institution: C-BRIC / NRL Lab, Purdue University
       year: 2024 — 2025
       description:
         - Developed an activation-guided, timestep-aware diffusion compression framework using operator-aware low-rank decomposition.
         - Achieved 35% faster inference and approximately 100M parameter reduction while preserving generation quality.
-        - Designed SlimSet, a 500-sample calibration set, and spectral influence criteria for activation-weight and timestep-aware profiling, reducing calibration cost by 98%.
+        - Designed SlimSet, a 500-sample calibration set, and spectral influence criteria for activation–weight and timestep-aware profiling, reducing calibration cost by 98%.
     - title: Backpropagation-Free Learning via Structured Low-Rank Geometry
       institution: C-BRIC / NRL Lab, Purdue University
       year: 2023 — 2025
       description:
         - Developed a backpropagation-free local-learning framework combining Direct Feedback Alignment with low-rank manifold constraints.
-        - Used orthogonality-preserving updates to improve representation alignment and achieve performance competitive with backpropagation while maintaining low inference overhead.
+        - Used orthogonality-preserving updates on low-rank manifolds to improve representation alignment and achieve performance competitive with backpropagation while maintaining low inference overhead.
         - Scaled to 32-layer ResNets and ImageNet-scale settings. Published at CVPRW 2025 and WACV 2026 (Oral), receiving the Best Student Paper – Algorithms Award.
     - title: Hardware-Algorithm Co-design for Efficient Neural Networks
       institution: C-BRIC / NRL Lab, Purdue University
@@ -78,55 +137,56 @@
 - title: Ongoing Projects
   type: nested_list
   contents:
-    - title: ARC — Aligned Riemannian Concept Erasure in Diffusion Models
+    - title: "ARC: Aligned Riemannian Concept Erasure in Diffusion Models"
       items:
-        - Geometry-aware concept and feature unlearning on hyperspherical representations using geodesic projection operators for localized, training-free removal while preserving neighboring semantics.
+        - Developing a geometry-aware concept and feature unlearning framework that models diffusion-model text representations on a hyperspherical manifold and derives geodesic projection operators for localized, training-free concept and feature removal while preserving neighboring semantics.
     - title: Feature and Concept Unlearning in Large Language Models
       items:
-        - Analyzing and disentangling LLM representation spaces across transformer layers for concept-level and sequential-task unlearning while preserving unrelated model capabilities.
+        - Analyzing and disentangling LLM representation spaces to understand how semantic features, concepts, and task-specific knowledge are encoded across transformer layers, with the goal of enabling concept-level and sequential-task unlearning while preserving unrelated model capabilities.
     - title: Semantic Reconstruction and Parallel Reasoning in Diffusion Language Models
       items:
-        - Developing a position-relaxed reconstruction objective for masked diffusion language models to improve deep-mask semantic reconstruction and parallel decoding.
+        - Developing a position-relaxed reconstruction objective for masked diffusion language models to improve deep-mask semantic reconstruction and enable more effective parallel decoding on language and reasoning tasks.
     - title: Model- and Task-Aware Data Curation for Multimodal Learning
       items:
-        - Developing data curation methods that select samples with respect to the modality gap to improve cross-modal alignment and data efficiency.
+        - Developing data curation methods that select samples with respect to the modality gap, improving cross-modal alignment and data efficiency for vision-language models.
 
 - title: Industry Experience
   type: time_table
   contents:
     - title: Compute-in-Flash Research Intern
-      institution: Texas Instruments, Dallas, TX
+      institution: Texas Instruments
+      location: Dallas, TX
       year: May 2023 — Aug 2023
       description:
         - Prototyped a digital compute-in-flash architecture for neural-network matrix-vector workloads and ported a 65 nm design to 28 nm flash, analyzing energy-throughput trade-offs.
     - title: Associate Staff Engineer
-      institution: Samsung Semiconductor India R&D, Bengaluru, India
+      institution: Samsung Semiconductor India R&D
+      location: Bengaluru, India
       year: Jul 2018 — Jul 2021
       description:
-        - Led library-design projects across 4 nm–130 nm nodes and automated design flows for approximately 2× faster turnaround.
-        - Designed PPA-optimized sequential circuits resulting in three patents and the Samsung President's Award.
+        - Led library-design projects across 4 nm–130 nm nodes, automating design flows for approximately 2× faster turnaround. Designed PPA-optimized sequential circuits resulting in three patents and the Samsung President's Award.
     - title: Student Trainee
-      institution: Samsung Electronics, Bengaluru, India
+      institution: Samsung Electronics
+      location: Bengaluru, India
       year: May 2017 — Jul 2017
       description:
-        - Developed a synthesizable memory compiler with an RTL-to-GDS flow resulting in the Best Intern Project award.
+        - Developed a synthesizable memory compiler with an RTL-to-GDS flow resulting in Best Intern Project award.
+
+- title: Patents
+  type: list
+  contents:
+    - Three Samsung patents on performance- and power-optimized flip-flop architectures for advanced standard-cell libraries.
 
 - title: Honors & Awards
   type: list
   contents:
-    - Best Student Paper – Algorithms, WACV 2026; Oral Presentation, WACV 2026
-    - Spotlight Paper, NeurIPS 2025
+    - Best Student Paper – Algorithms, WACV 2026; Oral Presentation, WACV 2026; Spotlight Paper, NeurIPS 2025
     - Bilsland Dissertation Fellowship, Purdue University, 2026
     - Frederick N. Andrews Fellowship, Purdue University
     - Samsung President's Award, innovation in 4 nm / 5 nm circuit design
     - Samsung Best Intern Project Award
     - Best Paper – User Design Track, 33rd International Conference on VLSI Design & Embedded Systems
     - Sanghamitra Gold Medal, Jadavpur University
-
-- title: Patents
-  type: list
-  contents:
-    - Three Samsung patents on performance- and power-optimized flip-flop architectures for advanced standard-cell libraries.
 
 - title: Technical Skills
   type: map
