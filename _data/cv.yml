@@ -44,48 +44,56 @@
   type: time_table
   contents:
     - title: "HEART: Hyperspherical Embedding Alignment via Kent-Representation Traversal in Diffusion Models"
+      url: https://arxiv.org/abs/2605.07973
       institution: "A. Roy, S.D. Biswas, K. Roy · NeurIPS 2026"
       year: "2026"
       linkitems:
         - linkname: Paper
           link: https://arxiv.org/abs/2605.07973
     - title: "CURE: Concept Unlearning via Orthogonal Representation Editing in Diffusion Models"
+      url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/769736dfbf6a1f64b4d2ab5c82c3d5e2-Abstract-Conference.html
       institution: "A. Roy*, S.D. Biswas*, K. Roy · NeurIPS 2025 · Spotlight"
       year: "2025"
       linkitems:
         - linkname: Paper
           link: https://proceedings.neurips.cc/paper_files/paper/2025/hash/769736dfbf6a1f64b4d2ab5c82c3d5e2-Abstract-Conference.html
     - title: "Feedback Alignment Meets Low-Rank Manifolds: A Structured Recipe for Local Learning"
+      url: https://openaccess.thecvf.com/content/WACV2026/html/Roy_Feedback_Alignment_Meets_Low-Rank_Manifolds_A_Structured_Recipe_for_Local_WACV_2026_paper.html
       institution: "A. Roy, M.P.E. Apolinario, S.D. Biswas, K. Roy · WACV 2026 · Oral · Best Student Paper – Algorithms · CVPRW 2025"
       year: "2026"
       linkitems:
         - linkname: Paper
           link: https://openaccess.thecvf.com/content/WACV2026/html/Roy_Feedback_Alignment_Meets_Low-Rank_Manifolds_A_Structured_Recipe_for_Local_WACV_2026_paper.html
     - title: "SlimDiff: Training-Free, Activation-Guided Slimming of Diffusion Models"
+      url: https://arxiv.org/abs/2509.21498
       institution: "A. Roy*, S.D. Biswas*, K. Roy · Under Review"
       year: "2025"
       linkitems:
         - linkname: Paper
           link: https://arxiv.org/abs/2509.21498
     - title: "Now You See It, Now You Don't – Instant Concept Erasure for Safe Text-to-Image and Video Generation"
+      url: https://openaccess.thecvf.com/content/CVPR2026F/html/Biswas_Now_You_See_It_Now_You_Dont_Instant_Concept_Erasure_CVPRF_2026_paper.html
       institution: "S.D. Biswas, A. Roy, K. Roy · CVPR Findings 2026"
       year: "2026"
       linkitems:
         - linkname: Paper
           link: https://openaccess.thecvf.com/content/CVPR2026F/html/Biswas_Now_You_See_It_Now_You_Dont_Instant_Concept_Erasure_CVPRF_2026_paper.html
     - title: "LLS: Local Learning Rule for Deep Neural Networks Inspired by Neural Activity Synchronization"
+      url: https://openaccess.thecvf.com/content/WACV2025/html/Apolinario_LLS_Local_Learning_Rule_for_Deep_Neural_Networks_Inspired_by_WACV_2025_paper.html
       institution: "M.P.E. Apolinario, A. Roy, K. Roy · WACV 2025"
       year: "2025"
       linkitems:
         - linkname: Paper
           link: https://openaccess.thecvf.com/content/WACV2025/html/Apolinario_LLS_Local_Learning_Rule_for_Deep_Neural_Networks_Inspired_by_WACV_2025_paper.html
     - title: "Towards Scalable Modeling of Compressed Videos for Efficient Action Recognition"
+      url: https://arxiv.org/abs/2503.13724
       institution: "S.D. Biswas, E. Soufleri, A. Roy, K. Roy · WACV 2026"
       year: "2026"
       linkitems:
         - linkname: Paper
           link: https://arxiv.org/abs/2503.13724
     - title: "AlphaBlend: Hardware-Algorithm Co-design with Mixed-Alphabet Set Multipliers for DNN Workloads"
+      url: https://doi.org/10.1109/ISCAS56072.2025.11043242
       institution: "A. Roy, K. Roy · ISCAS 2025"
       year: "2025"
       linkitems:
