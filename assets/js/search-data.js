@@ -28,8 +28,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-joined-purdue-university-as-a-ph-d-student-in-electrical-and-computer-engineering-working-with-prof-kaushik-roy-in-the-center-for-brain-inspired-computing",
-          title: 'Joined Purdue University as a Ph.D. student in Electrical and Computer Engineering, working...',
+            },},{id: "news-i-started-as-a-graduate-research-assistant-fellow-andrews-fellowship-at-purdue-university",
+          title: 'I started as a Graduate Research Assistant/Fellow (Andrews Fellowship) at Purdue University!',
           description: "",
           section: "News",},{id: "news-our-paper-cure-on-efficient-subspace-based-unlearning-for-safer-diffusion-models-has-been-accepted-to-neurips-2025-as-a-spotlight-paper",
           title: 'Our paper, CURE, on efficient subspace-based unlearning for safer diffusion models has been...',
