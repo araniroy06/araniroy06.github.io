@@ -40,7 +40,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-work-now-you-see-it-now-you-don-t-instant-concept-erasure-for-safe-text-to-image-and-video-generation-is-available-on-arxiv-and-appears-in-cvpr-2026-findings",
           title: 'Our work Now You See It, Now You Don’t: Instant Concept Erasure for...',
           description: "",
-          section: "News",},{id: "news-absolutely-thrilled-to-share-that-our-paper-feedback-alignment-meets-low-rank-manifolds-a-structured-recipe-for-local-learning-was-presented-as-an-oral-at-wacv-2026-and-received-the-best-student-paper-award-algorithms-award",
+          section: "News",},{id: "news-absolutely-thrilled-to-share-that-our-paper-feedback-alignment-meets-low-rank-manifolds-a-structured-recipe-for-local-learning-was-presented-as-an-oral-at-wacv-2026-and-received-the-best-student-paper-award-algorithms",
           title: 'Absolutely thrilled to share that our paper Feedback Alignment Meets Low-Rank Manifolds: A...',
           description: "",
           section: "News",},{id: "news-a-huge-thank-you-to-purdue-university-for-awarding-me-the-bilsland-dissertation-fellowship-for-fall-2026",
