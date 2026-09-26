@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A huge thank you to [**Purdue University**](https://www.purdue.edu/) for awarding me the **Bilsland Dissertation Fellowship for Fall 2026**. 😸
+A huge thank you to Purdue University for awarding me the [Bilsland Dissertation Fellowship](https://engineering.purdue.edu/Engr/People/Awards/Graduate/Fellowships) for Fall 2026. 😸
