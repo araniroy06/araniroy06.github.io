@@ -133,3 +133,224 @@ hr {
     text-align: center;
   }
 }
+
+
+/* Detailed CV */
+.cv {
+  .card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.8rem;
+    background: var(--global-card-bg-color);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    margin-bottom: 1.15rem !important;
+    overflow: hidden;
+  }
+
+  .card-title {
+    color: var(--global-theme-color);
+    font-family: "Roboto Slab", serif;
+    font-size: 1.65rem;
+    font-weight: 500 !important;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.8rem;
+  }
+
+  .list-group-item {
+    background: transparent;
+    border-color: var(--global-divider-color);
+  }
+
+  .cv-entry {
+    padding: 1.15rem 0.35rem;
+  }
+
+  .cv-entry-grid {
+    display: grid;
+    grid-template-columns: minmax(132px, 165px) minmax(0, 1fr);
+    gap: 1.35rem;
+    align-items: start;
+  }
+
+  .cv-entry-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.55rem;
+    min-width: 0;
+  }
+
+  .cv-year-badge {
+    display: inline-block;
+    max-width: 100%;
+    padding: 0.28rem 0.55rem;
+    border-radius: 0.35rem;
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+    font-size: 0.78rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: uppercase;
+    white-space: normal;
+  }
+
+  .cv-location {
+    color: var(--global-text-color-light);
+    font-size: 0.82rem;
+    line-height: 1.35;
+  }
+
+  .cv-location i,
+  .cv-institution i {
+    color: var(--global-theme-color);
+    margin-right: 0.3rem;
+  }
+
+  .cv-entry-body {
+    min-width: 0;
+  }
+
+  .cv-entry-title {
+    font-size: 1.05rem;
+    font-weight: 650;
+    line-height: 1.35;
+    margin: 0 0 0.35rem;
+  }
+
+  .cv-entry-title a {
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+
+  .cv-entry-title a:hover {
+    color: var(--global-theme-color);
+  }
+
+  .cv-institution {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem 1.1rem;
+    color: var(--global-text-color-light);
+    font-size: 0.93rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .cv-items {
+    padding-left: 1.15rem;
+    margin: 0.6rem 0 0;
+  }
+
+  .cv-items li {
+    margin-bottom: 0.35rem;
+    line-height: 1.5;
+  }
+
+  .cv-entry-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.8rem;
+  }
+
+  .btncv {
+    display: inline-block;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    padding: 0.22rem 0.65rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+
+  > .card:first-child table.table-cv {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cv .cv-entry-grid {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+
+  .cv .cv-entry-meta {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+/* Projects page */
+.projects-intro {
+  max-width: 760px;
+  color: var(--global-text-color-light);
+  font-size: 1.03rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.projects-section-title {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+  margin: 2.2rem 0 1rem;
+}
+
+.research-project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.research-project-card {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.8rem;
+  padding: 1.15rem 1.2rem;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.035);
+}
+
+.research-project-card h3 {
+  font-size: 1.08rem;
+  line-height: 1.35;
+  margin: 0.35rem 0 0.65rem;
+}
+
+.research-project-card p {
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  margin-bottom: 0.75rem;
+}
+
+.project-kicker {
+  color: var(--global-theme-color);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.project-status {
+  display: inline-block;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+  padding: 0.18rem 0.55rem;
+}
+
+.project-link {
+  font-size: 0.86rem;
+  font-weight: 600;
+  margin-right: 0.7rem;
+  text-decoration: none;
+}
+
+.project-link-secondary {
+  font-weight: 500;
+}
+
+@media (max-width: 767.98px) {
+  .research-project-grid {
+    grid-template-columns: 1fr;
+  }
+}
