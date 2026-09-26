@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work **SlimDiff: Training-Free, Activation-Guided Hands-free Slimming of Diffusion Models** is now available on [arXiv](https://arxiv.org/abs/2509.21498).
+Our work, [**SlimDiff**](https://arxiv.org/abs/2509.21498), on *training-free, activation-guided hands-free slimming of diffusion models*, is now available on [arXiv](https://arxiv.org/abs/2509.21498)!
