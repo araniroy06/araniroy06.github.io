@@ -17,7 +17,7 @@ social: true
 announcements:
   enabled: true
   scrollable: false
-  limit: 10
+  limit: 15
 
 latest_posts:
   enabled: false
@@ -35,37 +35,3 @@ My current work spans four closely connected directions:
 4. **Efficient learning beyond backpropagation** — scalable local-learning and hardware-aware methods for reducing training and inference cost.
 
 A recurring theme across these projects is to understand **where knowledge lives, how it is geometrically organized, and how it can be changed efficiently without disrupting unrelated capabilities**.
-
----
-
-<h4 class="section-accent">Past Experiences</h4>
-
-Before Purdue, I was in an entirely different world of **hardware**. I worked as an **Associate Staff Engineer at Samsung Semiconductor India R&D**, where I worked on library design across **4 nm–130 nm** technology nodes and automated workflows for faster turnaround in IP delivery. The experience brought **three patents**, the **Samsung President's Award**, and, just as importantly, a lot of soft skills—from teamwork and training newcomers to building lasting friendships.
-
-I also interned at **Texas Instruments Kilby Labs**, where I analyzed the matrix-vector workloads of neural networks for **compute-in-flash architectures** and worked on building the corresponding architecture and circuits. That experience taught me how important **energy efficiency** is, and it later motivated the efficiency focus in much of my research.
-
----
-
-<h4 class="section-accent">Research Interests</h4>
-
-<span class="research-pill">Diffusion Models</span>
-<span class="research-pill">Diffusion Language Models</span>
-<span class="research-pill">Large Language Models</span>
-<span class="research-pill">Multimodal Foundation Models</span>
-<span class="research-pill">Model Editing & Unlearning</span>
-<span class="research-pill">Representation Geometry</span>
-<span class="research-pill">Model Compression</span>
-<span class="research-pill">Efficient Reasoning</span>
-<span class="research-pill">Data Curation</span>
-<span class="research-pill">Efficient Deep Learning</span>
-<span class="research-pill">Backpropagation-Free Learning</span>
-<span class="research-pill">Trustworthy ML</span>
-
----
-
-<h4 class="section-accent">Honors during PhD</h4>
-
-- **Bilsland Dissertation Fellow**, Fall 2026
-- **Andrews Fellowship**, Fall 2022–Summer 2026
-- **WACV Best Student Paper Award — Algorithms**
-- **NeurIPS 2025 Spotlight**
