@@ -3,55 +3,85 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Current and selected research projects.
-nav: true
-nav_order: 3
+nav: false
 ---
 
-My research projects span controllable and geometry-aware generative models, machine unlearning, efficient generative AI and reasoning, and backpropagation-free learning.
+<div class="projects-intro">
+My research spans controllable and geometry-aware generative models, machine unlearning, efficient generative AI and reasoning, and backpropagation-free learning.
+</div>
 
-## Current Projects
+<h2 class="projects-section-title">Current Projects</h2>
 
-### ARC — Aligned Riemannian Concept Erasure in Diffusion Models
+<div class="research-project-grid">
 
-Developing a geometry-aware concept and feature unlearning framework that models diffusion-model text representations on a hyperspherical manifold and derives geodesic projection operators for localized, training-free concept and feature removal while preserving neighboring semantics.
+<div class="research-project-card">
+<div class="project-kicker">Diffusion · Unlearning · Geometry</div>
+<h3>ARC — Aligned Riemannian Concept Erasure</h3>
+<p>Geometry-aware concept and feature unlearning for diffusion models. I model text representations on a hyperspherical manifold and study geodesic projection operators for localized, training-free removal while preserving neighboring semantics.</p>
+<div class="project-status">In progress</div>
+</div>
 
-### Feature and Concept Unlearning in Large Language Models
+<div class="research-project-card">
+<div class="project-kicker">LLMs · Representation Analysis · Unlearning</div>
+<h3>Feature and Concept Unlearning in LLMs</h3>
+<p>Analyzing where semantic features, concepts, and task-specific knowledge emerge and disentangle across transformer layers, with the goal of enabling localized and sequential unlearning without disrupting unrelated capabilities.</p>
+<div class="project-status">In progress</div>
+</div>
 
-Analyzing how semantic features, concepts, and task-specific knowledge are encoded and disentangled across transformer layers, with the goal of enabling localized, concept-level, and sequential-task unlearning while preserving unrelated model capabilities.
+<div class="research-project-card">
+<div class="project-kicker">Diffusion LMs · Reasoning · Decoding</div>
+<h3>Semantic Reconstruction & Parallel Reasoning</h3>
+<p>Developing position-relaxed reconstruction objectives for masked diffusion language models to improve deep-mask semantic reconstruction and make parallel decoding more effective on language and reasoning tasks.</p>
+<div class="project-status">In progress</div>
+</div>
 
-### Semantic Reconstruction and Parallel Reasoning in Diffusion Language Models
+<div class="research-project-card">
+<div class="project-kicker">Multimodal · Data Curation · Alignment</div>
+<h3>Model- and Task-Aware Data Curation</h3>
+<p>Selecting data jointly with respect to the target model, task, dataset composition, and modality gap to improve cross-modal alignment, coverage, and data efficiency.</p>
+<div class="project-status">In progress</div>
+</div>
 
-Developing position-relaxed reconstruction objectives for masked diffusion language models to improve deep-mask semantic reconstruction and enable more effective parallel decoding on language and reasoning tasks.
+</div>
 
-### Model- and Task-Aware Data Curation for Multimodal Learning
+<h2 class="projects-section-title">Selected Published Projects</h2>
 
-Developing data curation methods that select samples jointly with respect to the target model, task, dataset composition, and modality gap, with the goal of improving cross-modal alignment and data efficiency.
+<div class="research-project-grid">
 
----
+<div class="research-project-card">
+<div class="project-kicker">Controllable Generation · NeurIPS 2026</div>
+<h3>HEART</h3>
+<p>Training-free fine-grained subject and attribute control using the intrinsic hyperspherical geometry of text-conditioning representations and Kent-representation traversal.</p>
+<a class="project-link" href="https://arxiv.org/abs/2605.07973" target="_blank" rel="noopener">Paper →</a>
+</div>
 
-## Selected Completed / Published Projects
+<div class="research-project-card">
+<div class="project-kicker">Concept Unlearning · NeurIPS 2025 Spotlight</div>
+<h3>CURE</h3>
+<p>Fast, training-free concept erasure through closed-form cross-attention weight editing with orthogonal projection and spectral representation geometry.</p>
+<a class="project-link" href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/769736dfbf6a1f64b4d2ab5c82c3d5e2-Abstract-Conference.html" target="_blank" rel="noopener">Paper →</a>
+</div>
 
-### HEART — Geometry-Aware Controllable Diffusion Generation
+<div class="research-project-card">
+<div class="project-kicker">Compression · Efficient Diffusion</div>
+<h3>SlimDiff</h3>
+<p>Activation-guided, timestep-aware, operator-aware low-rank compression for diffusion models, with approximately 35% faster inference and about 100M parameters removed.</p>
+<a class="project-link" href="https://arxiv.org/abs/2509.21498" target="_blank" rel="noopener">Paper →</a>
+</div>
 
-A training-free framework for fine-grained subject and attribute control that models text embeddings on their intrinsic hyperspherical geometry and uses Kent-representation traversal instead of conventional Euclidean semantic edits. The method supports UNet- and DiT-based diffusion models with strong scene preservation.  
-[Paper](https://arxiv.org/abs/2605.07973) · **NeurIPS 2026**
+<div class="research-project-card">
+<div class="project-kicker">Local Learning · WACV 2026</div>
+<h3>Backpropagation-Free Learning</h3>
+<p>Direct Feedback Alignment combined with structured low-rank geometry and orthogonality-preserving updates for scalable local learning.</p>
+<a class="project-link" href="https://openaccess.thecvf.com/content/WACV2026/html/Roy_Feedback_Alignment_Meets_Low-Rank_Manifolds_A_Structured_Recipe_for_Local_WACV_2026_paper.html" target="_blank" rel="noopener">WACV Paper →</a>
+<a class="project-link project-link-secondary" href="https://sites.google.com/view/wicv-cvpr-2025/program/accepted-papers?authuser=0" target="_blank" rel="noopener">WiCV / CVPRW →</a>
+</div>
 
-### CURE — Training-Free Concept Unlearning in Diffusion Models
+<div class="research-project-card">
+<div class="project-kicker">Hardware–Algorithm Co-design · ISCAS 2025</div>
+<h3>AlphaBlend</h3>
+<p>Mixed-alphabet-set multipliers and quantization for efficient DNN workloads, connecting hardware efficiency directly to model design.</p>
+<a class="project-link" href="https://doi.org/10.1109/ISCAS56072.2025.11043242" target="_blank" rel="noopener">Paper →</a>
+</div>
 
-A fast, training-free concept-unlearning framework based on closed-form cross-attention weight editing, orthogonal projection, and spectral representation geometry.  
-[Paper](https://proceedings.neurips.cc/paper_files/paper/2025/hash/769736dfbf6a1f64b4d2ab5c82c3d5e2-Abstract-Conference.html) · **NeurIPS 2025 Spotlight**
-
-### SlimDiff — Training-Free Diffusion Model Compression
-
-An activation-guided, timestep-aware diffusion compression framework using operator-aware low-rank decomposition. The work achieves approximately 35% faster inference and about 100M parameter reduction while preserving generation quality.  
-[Paper](https://arxiv.org/abs/2509.21498)
-
-### Backpropagation-Free Learning via Structured Low-Rank Geometry
-
-Local learning methods combining Direct Feedback Alignment with structured low-rank manifold constraints and orthogonality-preserving updates. The work scales to deeper convolutional networks and ImageNet-scale settings.  
-[WACV 2026 Paper](https://openaccess.thecvf.com/content/WACV2026/html/Roy_Feedback_Alignment_Meets_Low-Rank_Manifolds_A_Structured_Recipe_for_Local_WACV_2026_paper.html) · [WiCV / CVPRW 2025](https://sites.google.com/view/wicv-cvpr-2025/program/accepted-papers)
-
-### AlphaBlend — Hardware-Algorithm Co-design for Efficient Neural Networks
-
-A hardware-algorithm co-design framework using mixed-alphabet set multipliers and quantization strategies for efficient DNN workloads.  
-[Paper](https://doi.org/10.1109/ISCAS56072.2025.11043242) · **ISCAS 2025**
+</div>
