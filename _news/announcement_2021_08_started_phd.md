@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined **Purdue University** as a Ph.D. student in Electrical and Computer Engineering, working with [Prof. Kaushik Roy](https://engineering.purdue.edu/NRL) in the Center for Brain-Inspired Computing! 🚀
+I started as a **Graduate Research Assistant/Fellow** (*Andrews Fellowship*) at [Purdue University](https://www.purdue.edu/)!
