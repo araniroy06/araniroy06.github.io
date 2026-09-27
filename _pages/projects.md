@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Current and selected research projects.
-nav: false
+nav: true
 ---
 
 <div class="projects-intro">
