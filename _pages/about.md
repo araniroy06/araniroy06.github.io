@@ -1,7 +1,10 @@
 ---
 layout: about
 title: About
+seo_title: Arani Roy | Purdue ECE PhD Researcher in Generative AI
 permalink: /
+description: Arani Roy is a Ph.D. researcher in Electrical and Computer Engineering at Purdue University working on generative AI, diffusion models, machine unlearning, model editing, representation geometry, efficient reasoning, and efficient deep learning.
+keywords: Arani Roy, Arani Roy Purdue, Purdue ECE, Purdue University, generative AI, diffusion models, machine unlearning, model editing, representation geometry, efficient AI
 subtitle: Graduate Research Assistant/Fellow at <a href="https://www.purdue.edu/" target="_blank">Purdue University</a>
 profile:
   align: right
