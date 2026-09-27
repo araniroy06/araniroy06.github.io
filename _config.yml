@@ -9,14 +9,14 @@ last_name: Roy
 contact_note: >
   Email is the most reliable way to reach me.
 description: >
-  Ph.D. researcher in Electrical and Computer Engineering at Purdue University.
-  I work on generative AI across multimodal and language models, representation
-  geometry, model unlearning, efficient reasoning, model compression, data
-  curation, and efficient deep learning.
+  Arani Roy is a Ph.D. researcher in Electrical and Computer Engineering at Purdue University,
+  working on generative AI, diffusion models, machine unlearning, model editing,
+  representation geometry, efficient reasoning, model compression, data curation,
+  and backpropagation-free learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
   <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a>.
-keywords: diffusion models, diffusion language models, large language models, multimodal foundation models, generative AI, machine unlearning, model editing, representation geometry, model compression, efficient reasoning, data curation, efficient deep learning, Arani Roy, Purdue
+keywords: Arani Roy, Arani Roy Purdue, Purdue ECE, Purdue University, diffusion models, diffusion language models, large language models, multimodal foundation models, generative AI, machine unlearning, model editing, representation geometry, model compression, efficient reasoning, data curation, backpropagation-free learning, trustworthy ML
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ✦
 
